@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/bootstrap-5.3.7-dist/css/bootstrap.min.css">
+    <title>BootStrap</title>
+</head>
+
+<body>
+
+
+    <!-- BOOTSTRAP -->
+
+    <!-- Bootstrap Colours -->
+
+    <!-- primary -->
+    <!-- secondary -->
+    <!-- info -->
+    <!-- light -->
+    <!-- danger-->
+    <!-- success -->
+    <!-- dark -->
+    <!-- warning -->
+
+    <!-- TYPOGRAPHY -->
+
+    <!-- Font Size -->
+    <!-- fs-1 -->
+    <!-- fs-2 -->
+    <!-- fs-3 -->
+    <!-- fs-4 -->
+    <!-- fs-5 -->
+    <!-- fs-6 -->
+
+    <!-- Font Weight -->
+    <!--fw-bold -->
+    <!-- fw-bolder -->
+    <!-- fw-lighter -->
+
+    <!-- Text Align -->
+    <!-- text-end -->
+    <!-- text-end -->
+    <!-- text-start -->
+
+    <!-- BOX MODEL -->
+    <!-- Padding -->
+    <!-- p (gives padding to all sides of the container) -->
+    <!-- pt (padding top) -->
+    <!-- pb (padding bottom) -->
+    <!-- px (padding left and right) -->
+    <!-- py (padding up and down) -->
+    <!-- example is pt-5,pb-4  5 is the highest value and 1 is the lowest value-->
+
+    <!-- Margin -->
+    <!-- m (gives margin to all sides of the container) -->
+    <!-- mt (margin top) -->
+    <!-- mb (margin bottom) -->
+    <!-- mx (margin left and right) -->
+    <!-- my (margin up and down) -->
+    <!-- example is mt-5,mb-4  5 is the highest value and 1 is the lowest value-->
+
+    <!-- Border Radius -->
+    <!-- rounded-pill (basically gives a circle if the height and width are same) -->
+    <!-- rounded-5 (for border radius; values range from 1-5) -->
+
+
+    <div class="bg-success text-warning fs-6 fw-lighter p-5 m-5 rounded-5">
+        <h1 class="text-center">Welcome to Bootstrap</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas placeat quaerat soluta ea vitae. Unde
+            assumenda, vero beatae suscipit commodi voluptatem rerum quis consequatur autem.</p>
+
+        <div class="text-center"><a class="btn btn-warning" href="">Read More</a></div>
+    </div>
+    <!-- Table -->
+    <!-- table- gives it some space and lines to make it more table-like -->
+     <!-- table-bordered -->
+     <!-- table table-bordered table-hover table-striped container -->
+    <table class="table table-bordered table-hover table-striped container">
+        <tr>
+            <th>Id</th>
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kizzy</td>
+            <td>Chidi</td>
+            <td>09067608693</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rapid</td>
+            <td>Rhythm</td>
+            <td>09133370698</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Angelo</td>
+            <td>Spliff</td>
+            <td>09067608693</td>
+        </tr>
+    </table>
+
+    <!-- FORM -->
+    <form action="" class="bg-primary w-25 mx-auto text-whith p-3 rounded-2">
+        <div>
+            <label for="">First Name</label>
+            <input type="text" class="form-control" required>
+        </div>
+        <div>
+            <label for="">Last Name</label>
+            <input type="text" class="form-control" required>
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" class="form-control" required>
+        </div>
+        <div>
+            <label for="">Password</label>
+            <input type="password" class="form-control" required>
+        </div>
+        
+        <div class="text-center mt-3">
+            <input class="btn btn-secondary" type="submit" required>
+        </div>
+    </form>
+
+    <!-- pagination -->
+
+    <ul class="pagination">
+        <li><a class="page-link disabled " href="">1</a></li>
+        <li><a class="page-link active" href="">2</a></li>
+        <li><a class="page-link" href="">3</a></li>
+        <li><a class="page-link " href="">4</a></li>
+    </ul>
+
+    <!-- badge -->
+
+    <button class="btn btn-primary position-relative">
+        messages
+        <span class="badge position-absolute top-0 bg-success translate-middle">100+</span>
+    </button>
+
+    <!-- progress -->
+
+    <div class="progress">
+        <div class="progress-bar bg-secondary w-50">
+        <span>50%</span>
+        </div>
+    </div>
+</body>
+
+</html>

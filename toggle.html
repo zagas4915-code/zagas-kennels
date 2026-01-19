@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="toggle.css">
+</head>
+<body>
+
+<p id="cook" class="cook">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, natus sapiente nemo accusamus maxime amet eaque quod quidem quae corporis sint expedita sit aut, praesentium fuga atque! Veniam, necessitatibus voluptas?</p>
+    
+<div id="toggle">
+    <p class="ball"></p>
+</div>
+
+<script>
+    const toggle = document.getElementById('toggle')
+    const body = document.querySelector('body') 
+
+    toggle.addEventListener('click', function(){
+    toggle.classList.toggle('active')
+    body.classList.toggle('active')
+    if(!body.classList.contains('active')){
+        return localStorage.setItem('key', 'white');
+    }
+    else{
+        return localStorage.setItem('key','active');
+    }
+})
+
+// get the key
+
+let getkey = localStorage.getItem('key');
+
+if(getkey === 'active'){
+    body.classList.add('active')
+    toggle.classList.add('active')
+}
+</script>
+</body>
+</html>

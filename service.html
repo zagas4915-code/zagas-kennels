@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/service.css">
+    <title>Document</title>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "kLeKX878IFc1l_OVb",
+      });
+   })();
+</script>
+<script src="js/myproject.js"></script>
+</head>
+<body>
+    <div class="home-page overlay">
+    <nav class="navbar navbar-expand-lg position-fixed w-100">
+        <div class="container ">
+          <h2><a class="nav-link text-light" href="index.html"><i style="font-size: 30px;color: rgb(223, 54, 138);" class="fa-solid fa-paw"></i> Zagas kennel</a></h2>
+
+          <button class="navbar-toggler" data-bs-target="#nav-list" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse text-end" id="nav-list">
+            <div class="list3 mx-auto">
+                <ul class="navbar-nav p-4 un-link ">
+                    <li class="home-list0"><a class="px-3 nav-link  fs-5  link0"  href="index.html" >Home</a></li>
+                    <li class="home-list"><a class="px-3 nav-link  fs-5  link0" href="blog.html">Blog</a></li>
+                    <li class="home-list"><a class="px-3 nav-link  fs-5  link0" href="about_us.html">About us</a></li>
+                    <li class="home-list"><a class="px-3 nav-link  fs-5  link0" href="contact-us.html">Contact</a></li>   
+                    <li class="home-list"><a class="px-3 nav-link  fs-5  link0" id="active" href="service.html">Services</a></li>
+                    <li class="home-list1"><a class="px-3 nav-link  fs-5  link0" href="petStore.html">Dogs Prices</a></li>
+                </ul>
+            </div>
+          </div>
+         <h5><a href="tel:+2347033272981" class="nav-link text-light fw-bold"><i style="font-size: 30px;color: rgb(223, 54, 138);" class="fa-solid fa-phone"></i> 07033272981</a></h5>
+        </div>
+    </nav>
+    <br><br><br><br><br><br>
+    <div >
+      <h1 class="adopt-us md-4 ">Service</h1><br>
+    
+  </form>
+</div>
+  </div>
+  <!-- blog1 -->
+  <div class="container">
+      <div >
+        <br><br><br>
+        <h3 class="text-center fs-5 box16">Make An Appointment</h2>
+          <br>
+          <a>
+            <div class="row">
+              <div class="col-md-3">
+                <input class="form-control p-3  my-2" type="text" id="First-name" placeholder="First name"required>
+              </div>
+              <div class="col-md-3">
+                <input class="form-control p-3  my-2" type="text" id="Last-name" placeholder="Last name"required>
+              </div>
+              <div class="col-md-3">
+                <select class="form-control p-3  my-2" name="Subject" id="My-service" required>
+                  <option value="">Click To Select Services</option>
+                  <option value="Pet Adoption">Pet Adoption</option>
+                  <option value="Pet Grooming">Pet Grooming</option>
+                  <option value="Vaccination">Vaccination</option>
+                  <option value="Dog Training">Dog Training</option>
+                  <option value="Pet Daycare">Pet Daycare</option>
+                  <option value="Pet Sitter">Pet Sitter</option>
+                </select>
+              </div>
+              <div class="col-md-3">
+                <input class="form-control p-3 my-2" type="tel" id="phone" placeholder="phone" required>
+              </div>
+              <div class="col-md-3">
+                <input class="form-control p-3 my-2" type="email" id="email" placeholder="Email" required>
+              </div>
+              <div class="col-md-3">
+                <input class="form-control p-3 my-2" type="date" id="date" required>
+              </div>
+              <div class="col-md-3">
+                <textarea class="form-control px-2 my-2" type="text" placeholder="Message" id="Message" required></textarea>
+              </div>
+              <div class="col-md-3">
+               <button  class="btn btn-color form-control p-3 my-2 " type="submit" onclick="message()">Appointment </button>
+              </div>
+
+            </div>
+          </a>
+      </div>
+  </div>
+  <br><br><br>
+
+  <!-- services -->
+
+  <div class="box8 bg-light text-center w-100">
+    <br><br>
+    <div class="container d-lg-flex mt-4 ">
+      <div class="box7 mx-auto my-4 ">
+        <p class="text-start box9 fs-6">Our adoption process is simple and reliable.
+All puppies are health-checked, vaccinated, and socialized before joining their new homes.
+We guide families in selecting the right companion with care.
+With us, adoption means welcoming a healthy, trusted family member.</p>
+      
+        <div class="d-flex box12 mx-auto gap-3">
+            <div class=" rounded-pill box10 "><i class="fa-solid fa-paw w-100 box11 fs-1 py-4"></i></div>
+            <div class="  box13"><p class="box15">Zagas Kennels <br> Pet Adoption</p></div>
+        </div>
+        <br>
+      </div>
+
+      <div class="box7 mx-auto my-4 ">
+        <p class="text-start box9 fs-6">Our expert grooming service ensures your dog stays clean, healthy, and comfortable. We provide gentle bathing, coat care, and hygiene treatments, all in a safe and stress-free environment.
+At Zagas Kennels, every grooming session is handled with care, patience, and professionalism.
+
+</p>
+
+         <div class="d-flex box12 mx-auto gap-3">
+            <div class="rounded-pill box10"><i class="fa-solid fa-bath w-100 box11 fs-1 p-3"></i></div>
+            <div class="  box13"><p class="box15">Zagas Kennels <br> Pet Grooming</p></div>
+         </div>
+         <br>
+      </div>
+      <div class="box7 mx-auto my-4 ">
+        <p class="text-start box9 fs-6">We provide essential vaccinations to protect puppies from common diseases like parvovirus, distemper, and rabies. With licensed vets and proper schedules, your dog gets a healthy start and lifelong protection. This ensures peace of mind for every loving pet owner.</p>
+          
+             <div class="d-flex box12 mx-auto gap-3">
+                <div class="rounded-pill box10"><i class="fa-solid fa-syringe w-100 box11 fs-1 p-3"></i></div>
+                <div class="box13"><p class="box15">Zagas Kennels <br> Vaccination</p></div>
+              
+      </div>
+      <br>
+    </div>
+    <br>
+  </div>
+
+  <div class="container d-lg-flex mt-5 ">
+      <div class="box7 mx-auto my-4 ">
+        <p class="text-start box9 fs-6">At Zagas Kennels, we provide expert dog training to encourage obedience, confidence, and good manners.
+Using positive reinforcement, we make learning safe, fun, and effective for every dog.
+Our training strengthens the bond between you and your loyal companion.</p>
+      
+        <div class="d-flex box12 mx-auto gap-3">
+            <div class=" rounded-pill box10"><i class="fa-solid fa-shield-dog w-100 box11 fs-1 p-3"></i></div>
+            <div class="  box13"><p class="box15">Zagas Kennels  Dog Training </p></div>
+        </div>
+        <br>
+      </div>
+
+      <div class="box7 mx-auto my-4 ">
+        <p class="text-start box9 fs-6">A safe, fun, and caring place for your dog to play, socialize, and relax while you’re away. We keep tails wagging all day!
+Your pet enjoys love, comfort, and attention every moment.
+Because at Zagas Kennels, every dog is family.
+Peace of mind for you, happiness for your pet.</p>
+
+         <div class="d-flex box12 mx-auto gap-3">
+            <div class="rounded-pill box10"><i class="fa-solid fa-dog w-100 box11 fs-1 p-3"></i> </div>
+            <div class="  box13"><p class="box15">Zagas Kennels <br> Pet Daycare</p></div>
+         </div>
+         <br>
+      </div>
+      <div class="box7 mx-auto my-4 ">
+        <p class="text-start box9 fs-6">Our caring sitters provide feeding, playtime, and companionship, ensuring your pet stays safe, happy, and stress-free even when you’re not home. We give your furry friend the same love and care you do. With Zagas Kennels, you enjoy peace knowing your pet is in reliable hands.</p>
+          
+             <div class="d-flex box12 mx-auto gap-3">
+                <div class="rounded-pill box10"><i class="fa-solid fa-bone w-100 box11 fs-1 p-3"></i></div>
+                <div class="box13"><p class="box15">Zagas Kennels <br> Pet Sitter</p></div>
+              
+      </div>
+      <br>
+    </div>
+    <br>
+  </div>
+
+ 
+      <div class="box7 mx-auto my-4 ">
+        <p class="text-start box9 fs-6">At Zagas Kennels, your dog’s health comes first. We provide routine check-ups, vaccinations, deworming, and professional care from licensed veterinarians. Our guidance ensures your puppy stays healthy and happy even after joining your home.</p>
+      
+        <div class="d-flex box12 mx-auto gap-3">
+            <div class=" rounded-pill box10"><i class="fa-solid fa-briefcase-medical w-100 box11 fs-1 p-3"></i></div>
+            <div class="  box13"><p class="box15"> Zagas Kennels <br> Veterinary Service</p></div>
+        </div>
+        <br>
+      </div>
+
+      
+  <br><br><br>
+  </div>
+   
+<!-- footer -->
+
+<footer>
+    <div class="bg-dark">
+<br><br><br><br>
+  <div class="container">
+    <div class="row ">
+      <div class="col-md-6 col-xl-3">
+        <h4 class="fw-bold text-white box36"> Petsitting</h4>
+
+        <p class="text-secondary pt-4">Connect with us on our social media platforms below to stay updated and reach out anytime.</p>
+
+        <div class="d-flex gap-3">
+
+        <div class="box33 rounded-pill ">
+          <a href="https://www.facebook.com/share/1FU97jXwCq/?mibextid=wwXIfr" target="_blank" class="box34 fs-4 p p-1"><i class="fa-brands fa-facebook-f  "></i></a>
+        </div>
+
+        <div class="box33 rounded-pill ">
+          <a href="https://www.instagram.com/zagas874?igsh=bHZkb2xwdWh0aW55&utm_source=qr" target="_blank" class="box34 fs-4 p p-1"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="box33 rounded-pill ">
+          <a href="https://www.tiktok.com/@user4617326032782?_r=1&_d=eiemc684g99mlj&sec_uid=MS4wLjABAAAAdtpKec2_xPMV71MgEInPu4cSc1NQ0lO3WkAEeYWcWexWQQ3AWwvazpD0Qqb7zN5T&share_author_id=6783261666807415814&sharer_language=en&source=h5_m&u_code=dac510jc69fc6e&ug_btm=b0,b0&social_share_type=4&utm_source=copy&sec_user_id=MS4wLjABAAAAdtpKec2_xPMV71MgEInPu4cSc1NQ0lO3WkAEeYWcWexWQQ3AWwvazpD0Qqb7zN5T&tt_from=copy&utm_medium=ios&utm_campaign=client_share&enable_checksum=1&user_id=6783261666807415814&share_link_id=7511554E-05E6-4376-ABA4-96EEEEEDC31B&share_app_id=1233" target="_blank" class="box34 fs-4 p p-1"><i class="fa-brands fa-tiktok  "></i></a>
+        </div>
+        
+      </div>
+      <br><br><br>
+      </div>
+
+      <div class="col-md-6 col-xl-3">
+        
+        <h4 class="fw-bold text-white box36">Latest News</h4>
+        <br>
+
+        <div class=" d-flex gap-3 ">
+<div class=" w-50 rounded-2 text-danger"><img class="w-100 rounded-2" src="img/dog15.jpg" alt="">  </div><p class="gap-3"><a href="blog1.html" class="box35 page-link fs-6 mb-2"> Choosing the Right Dog Breed for Your Lifestyle</a> <span class="fs-6 text-secondary ">Published: August 15, 2025</span></p>
+      </div>
+      
+       <div class=" d-flex gap-3 mt-3">
+<div class=" w-50 rounded-2 text-danger"><img class="w-100 rounded-2" src="img/dog18.jpg" alt="">  </div><p class="gap-3"><a href="blog2.html" class="box35 page-link fs-6 mb-2"> How to Prepare Your Home for a New Puppy</a> <span class="fs-6 text-secondary ">Published: August 21, 2025</span></p>
+        
+      </div>
+      <br><br> <br>
+
+      </div>
+      <div class="col-md-6 col-xl-3"><h4 class="fw-bold text-white">Quick Links</h3>
+        <br>
+        <ul>
+          <li class="text-secondary page-link"><a href="index.html"  class="text-secondary page-link"> Home </a></li><br>
+          <li class="text-secondary page-link"><a href="blog.html"  class="text-secondary page-link"> Blog </a></li><br>
+          <li class="text-secondary page-link"><a href="about_us.html"  class="text-secondary page-link"> About us </a></li><br>
+          <li class="text-secondary page-link"><a href="contact-us.html"  class="text-secondary page-link"> Contact </a></li><br>
+          <li class="text-secondary page-link"><a href="service.html"  class="text-secondary page-link"> Services </a></li><br>
+          <li class="text-secondary page-link"><a href="petStore.html"  class="text-secondary page-link"> Dogs Prices </a></li><br>
+        </ul>
+        <br><br>
+      </div>
+        
+      <div class="col-md-6 col-xl-3"><h4 class="fw-bold text-white">Have Questions?</h3><br>
+      <div class="d-flex text-secondary"><i class="fa-solid fa-envelope fs-4"> </i> <p class="mx-3 fs-6"><a href="mailto:zagas4915@gmail.com" class="page-link"> zagas4915@gmail.com</a></p></div>
+      <br>
+      <div class="d-flex text-secondary"><a href="https://wa.link/ym3ln5" target="_blank"  class="text-secondary page-link d-flex"><i class="fa-brands fa-whatsapp fs-2"></i> <p class=" fs-6 mx-3"> 07033272981</p></a></div>
+      <br><br><br>
+      </div>
+      
+    </div>
+  </div>
+</div>
+  
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script></body>
+</html>

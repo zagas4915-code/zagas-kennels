@@ -1,0 +1,16 @@
+.carousel-inner{
+    height: 100%;
+}
+.carousel-inner::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+}
+nav{
+    z-index: 999999999999;
+}
+.bb{
+    height: 100%;
+}

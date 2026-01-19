@@ -1,0 +1,790 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+#contact_us_button{
+    border: transparent;
+}
+#contact-number {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number1 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number2 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number3 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number4 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number5 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number6 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number7 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number8 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number9 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number10 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number11 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number12 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number13 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number14 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number15 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number16 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number17 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number18 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number19 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number20 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number21 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number22 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number23 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number24 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number25 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+#contact-number26 {
+    margin: auto;
+    border: transparent;
+    overflow:unset;
+}
+
+.home-page{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.20)), url('../img/dogs20.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+#active{
+    color: rgb(223, 54, 138);
+}
+.link0{
+font-size: 100px;
+font-weight: 600;
+color: #fff;
+}
+.link0:hover{
+    border-bottom: 2px solid rgb(223, 54, 138);
+    color: rgb(223, 54, 138);
+    text-shadow: #fff;
+    transition: 0.5s;
+}
+nav{
+    z-index: 99999999999;
+    background-color: rgba(0, 0, 0, 0.233);
+    position: fixed;
+}
+.adopt-us{
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+.link1{
+    background-color: rgb(223, 54, 138);
+    color: #fff;
+    padding-bottom: 10px;
+}
+.link1:hover{
+    border: 1px solid rgb(223, 54, 138);
+    color: rgb(223, 54, 138);
+    transition: 1s;
+}
+.box0{
+    width: 100%;
+    height: 130vh;
+    padding: 10%;
+}
+.box1{
+    width: 55%;
+    height: 90vh;
+}
+.box2{
+    width: 75%;
+    height: 80vh;
+    border-radius: 10px;
+    transition: ease-in-out 800ms;
+}
+.box2:hover{
+    background-color: rgb(223, 54, 138);
+    color: #fff;
+}
+.box3{
+    height: 100%;
+}
+.box4{
+    padding: 4%;
+    height: 100%;
+    font-size: 1.1rem;
+}
+.box7{
+    border: solid transparent;
+    width: 25vw;
+    height: 100%;
+    background-color: #fff;
+
+}
+.box8{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.200)),url('../img/dogs21.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box9{
+    font-size: 1.05rem;
+    padding: 5%;
+    color: gray;
+}
+.box10{
+    border: solid transparent;
+    height: 80px;
+    width: 80px;
+}
+.box11{
+    height: 100%;
+}
+.box12{
+    border: solid transparent;
+    margin-top: -22px;
+    width: 90%;
+}
+.box13{
+    text-align: left;
+    border: solid transparent;
+    width: 60%;
+    font-size: 21px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box16{
+    height: 100%;
+}
+.box17{
+    color: rgb(223, 54, 138);
+}
+.box20{
+     border: 10px solid white;
+     margin-bottom: -40%;
+}
+.box21{
+    width: 100%;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition:ease-in-out 1s;
+}
+.box22{
+    font-family: 'Times New Roman', Times, serif;
+}
+.box23{
+    color: rgb(223, 54, 138);
+}
+.box21:hover{
+    color: #fff;
+    background-color: rgb(223, 54, 138);
+}
+.box21:hover .box23{
+    color: #fff;
+    transition: 1s;
+}
+.box25{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(rgba(0, 0, 0, 0.200)) ,url('../img/dogs22.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.box27{
+    width: 50%;
+}
+.box28{
+    background-color: #91c235;
+}
+.box29{
+    margin: auto;
+    width: 90%;
+    height: 100vh;
+    display: flex;
+  padding: 0 4px;
+  overflow-y: scroll;
+}
+.box30{
+    width: 25%;
+  padding: 0 4px;
+    
+}
+.box30 img{
+    width: 100%;
+     margin-top: 8px;
+     background-color: #0000007a;
+}
+.box30 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.box31{
+    background:linear-gradient(rgba(0, 0, 0, 0.200)),url('../img/dogs23.jpg') ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.box32{
+    margin-left: 45%;
+    width: 50%;
+}
+.box33{
+    background-color: rgba(192, 192, 192, 0.137);
+}
+.box34{
+    color: rgb(223, 54, 138);
+}
+.box34:hover{
+   color: #fff;
+   transition: 800ms;
+}
+.box35{
+    color: #fff;
+}
+.box35:hover{
+    color: rgb(223, 54, 138);
+}
+.box36{
+    margin-top: 0px;
+}
+.big{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 576px){
+    
+    h5{
+        display: none;
+    }
+    .link0{
+        text-align: right;
+        color: #000;
+       
+    }
+    .big{
+        font-size: 18px;
+    }
+    .home-list{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+       
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+         background-position: 30px;
+    }
+    .home-list0{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 4px solid rgb(223, 54, 138);
+         background-color: #fff;
+    }
+    .home-list1{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 4px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+    }
+    .un-link {
+        background-color: #fff;
+        text-align: right;
+        margin-left: 52%;
+    }
+    .home-page{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.20)), url('../img/dogs20.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+}
+.box0{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color:rgb(190, 190, 190) ;
+}
+.box1{
+    width: 80vw;
+    height: 60vh;
+}
+.box2{
+    width: 80vw;
+}
+
+.box2:hover{
+    background-color: rgb(223, 54, 138);
+    color: #fff;
+    transition: 1.5s;
+}
+.box4{
+    height: 100%;
+}
+.box5{
+    font-size: 23px;
+}
+.box6{
+    font-size:1.05rem;
+}
+.box7{
+    width: 90%;
+}
+.box8{
+    height: 100%;
+}
+.box13{
+    text-align: left;
+    border: solid transparent;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box12{
+    margin-top: -10px;
+}
+.box22{
+    padding-top: 15%;
+}
+    .box27{
+        width: 90%;
+        display: block;
+        margin: auto;
+}
+.box28{
+    margin-left: 5%;
+}
+
+.box32{
+    margin: auto;
+    width: 90%;
+}
+
+}
+@media only screen and (min-width:576px) and (max-width:768px){
+    .home-page{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.20)), url('../img/dogs20.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box0{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color:rgb(190, 190, 190) ;
+}
+.box1{
+    width: 75vw;
+    height: 65vh;
+}
+.box2{
+    width: 75vw;
+}
+
+.box2:hover{
+    background-color: rgb(223, 54, 138);
+    color: #fff;
+    transition: 1.5s;
+}
+
+.box5{
+    font-size: 25px;
+}
+.box6{
+    font-size:1.05rem;
+}
+.link0{
+        text-align: right;
+        color: #000;
+       
+    }
+    .home-list{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+    }
+    .home-list0{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 4px solid rgb(223, 54, 138);
+    }
+    .home-list1{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 4px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+    }
+    .un-link {
+        background-color: #fff;
+        text-align: right;
+        margin-left: 52%;
+    }
+.box7{
+    width: 90%;
+}
+.box8{
+    height: 100%;
+}
+.box13{
+    text-align: left;
+    border: solid transparent;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box12{
+    margin-top: -10px;
+}
+.box22{
+    padding-top: 15%;
+}
+    .box27{
+        width: 90%;
+        display: block;
+        margin: auto;
+}
+.box28{
+    margin-left: 5%;
+}
+.box32{
+    margin: auto;
+    width: 90%;
+}
+}
+@media only screen and (min-width:768px) and (max-width:810px){
+    .home-page{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.20)), url('../img/dogs20.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box0{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color:rgb(190, 190, 190) ;
+}
+.box1{
+    width: 70vw;
+    height: 60vh;
+}
+.box2{
+    width: 70vw;
+}
+
+.box2:hover{
+    background-color: rgb(223, 54, 138);
+    color: #fff;
+    transition: 1.5s;
+}
+.box5{
+    font-size: 30px;
+}
+.box6{
+    font-size:17px;
+}
+.link0{
+        text-align: right;
+        color: #000;
+       
+    }
+    .home-list{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+    }
+    .home-list0{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 4px solid rgb(223, 54, 138);
+    }
+    .home-list1{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 4px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+    }
+    .un-link {
+        background-color: #fff;
+        text-align: right;
+        margin-left: 52%;
+    }
+    
+.box7{
+    width: 90%;
+    height: 100%;
+}
+.box8{
+    height: 100%;
+}
+.box9{
+    font-size: 1.1rem;
+    padding: 5%;
+    color: gray;
+}
+.box10{
+    border: solid transparent;
+    height: 100px;
+    width: 100px;
+}
+.box13{
+    text-align: left;
+    border: solid transparent;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box12{
+    margin-top: -10px;
+}
+.box22{
+    padding-top: 20%;
+}
+    .box27{
+        width: 90%;
+        display: block;
+        margin: auto;
+}
+.box28{
+    margin-left: 5%;
+}
+.box32{
+    margin: auto;
+    width: 90%;
+}
+}
+@media only screen and (min-width:810px) and (max-width:992px){
+        .home-page{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0, 0, 0, 0.20)), url('../img/dogs20.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.box0{
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    background-color:rgb(190, 190, 190) ;
+}
+.box1{
+    width: 70vw;
+    height: 70vh;
+}
+.box2{
+    width: 70vw;
+}
+
+.box2:hover{
+    background-color: rgb(223, 54, 138);
+    color: #fff;
+    transition: 1.5s;
+}
+.box5{
+    font-size: 30px;
+}
+.box6{
+    font-size:17px;
+}
+.link0{
+        text-align: right;
+        color: #000;
+       
+    }
+    .home-list{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+    }
+    .home-list0{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 2px solid rgb(223, 54, 138);
+         border-top: 4px solid rgb(223, 54, 138);
+    }
+    .home-list1{
+        background-color: #fff;
+        width:100%;
+        text-align: right;
+         border-bottom: 4px solid rgb(223, 54, 138);
+         border-top: 2px solid rgb(223, 54, 138);
+    }
+    .un-link {
+        background-color: #fff;
+        text-align: right;
+        margin-left: 52%;
+    }
+.box7{
+    width: 90%;
+}
+.box8{
+    height: 100%;
+}
+.box9{
+    font-size: 1.1rem;
+    padding: 5%;
+    color: gray;
+}
+.box10{
+    border: solid transparent;
+    height: 100px;
+    width: 100px;
+}
+.box13{
+    text-align: left;
+    border: solid transparent;
+    width: 60%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box12{
+    margin-top: -10px;
+}
+.box22{
+    padding-top: 20%;
+}
+    .box27{
+        width: 90%;
+        display: block;
+        margin: auto;
+}
+.box28{
+    margin-left: 5%;
+}
+.box32{
+    margin: auto;
+    width: 90%;
+}
+}

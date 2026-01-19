@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sidenav.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="sidenav" id="sidenav">
+    <a class="close">$times;</a>
+    <a href="">home</a>
+    <a href="">about</a>
+    <a href="">Contact</a>
+    <a href="">services</a>
+  </div> 
+  <button type="button " onclick="opennav()">open</button>
+  <main>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, esse earum quisquam, incidunt qui ipsa nesciunt officiis ipsum non sit veniam cum explicabo quos fugiat quis repudiandae praesentium. Placeat, voluptatem?</p>
+    </section>
+  </main>
+  <script>
+    const sidenav = document.getElementById('sidenav');
+    const main = document.querySelector('main');
+
+    function opennav(){
+        sidenav.style.width = '150px'
+        main.style.marginLeft = '150px'
+        main.style.transition = '1s'
+    }
+  </script>
+</body>
+</html>
